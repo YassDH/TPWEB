@@ -22,6 +22,9 @@ body{
     height: 350px;
     width: 650px;
 }
+.container .before-menu .logo{
+    background-color : #fff;
+}
 .container .before-menu .menu{
     margin-top: 120px;
 }
