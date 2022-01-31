@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.header{
+    background-image: url(./img/top_bg.png);
+    height: 50px;
+    width: 100vw;
+}
+.container .before-menu{
+    background-image: url(./img/flash_img.png);
+    background-repeat: no-repeat;
+    background-size: 650px 350px;
+    height: 350px;
+    width: 650px;
+}
+.container .before-menu .menu{
+    margin-top: 120px;
+}
+.container .before-menu .menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    height: 50px;
+    border: none;
+}
+.container .before-menu .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 19px;
+}
+.container .before-menu .menu ul li a:hover{
+    background-image: url(./img/rings.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50px;
+    background-color: #000;
+}
+.container .content{
+    padding: 20px 0px;
+    width: 650px;
+}
+.container .content .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .content .top .desc{
+    width: 50%;
+}
+.container .content .top .desc .titre{
+    color: brown;
+    font-weight: bold;
+    font-size: 25px;
+}
+.container .content .top .desc .contenu{
+    font-size: 10px;
+}
+.container .content .top .photos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.container .content .top .photos .box{
+    width: 100%;
+    margin-left: 10px;
+}
+.container .content .top .photos .box img{
+    width: 100%;
+}
+.btn{
+    color: brown;
+    text-decoration: none;
+    font-size: 10px;
+}
+.container .content .bottom{
+    text-align: center;
+    padding: 20px 0px;
+}
+.container .content .bottom .cubes{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.container .content .bottom .cubes img{
+    width: 150px;
+}
+.footer-txt{
+    text-align: center;
+    font-size: 12px;
+}
+.footer{
+    background-image: url(./img/foot_bg.png);
+    height: 170px;
+    width: 100vw;
+}

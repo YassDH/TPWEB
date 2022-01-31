@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Inscription</title>
+</head>
+<body align="center">
+    <form action="page4.html" method="POST">
+        <fieldset >
+            <legend>Informations Personelles</legend>
+            
+                <label for="nom">Votre nom</label><input type="text" name="nom" placeholder="Votre nom ?"><br>
+                <label for="prenom">Votre prenom</label><input type="text" name="prenom" placeholder="Votre prenom ?"><br>
+                <label for="daten">Votre date de naissance</label><input type="date" name="daten" placeholder="Votre date  de naissance ?"><br>
+                <label for="age">Votre age</label><input type="number" name="age" placeholder="Votre age ?"><br>
+                <label for="adresse">Votre adresse</label><textarea name="adresse" cols="30" rows="10" placeholder="Votre adresse ?" ></textarea><br>
+                <label for="mail">Votre mail</label><input type="email" name="mail" placeholder="Votre mail ?" ><br>
+                <label for="url">Votre URL</label><input type="url" name="url" placeholder="Votre URL ?"><br>
+                <label for="mdp1">Votre mot de passe</label><input type="password" name="mdp1" required> <br>
+                <label for="mdp2">Retapez votre mot de passe</label><input type="password" name="mdp2" required>
+        </fieldset>
+        <fieldset>
+            <legend>Gestion des groupes et de options</legend>
+            <label for="groupe">Votre groupe</label>
+            <input type="radio" name="grp1" checked>Groupe 1 <input type="radio" name="grp2" >Groupe 1 <input type="radio" name="grp3" >Groupe 1 <br>
+            <label for="age">Numero de carte d'étudiant</label><input type="text" name="cartetud" placeholder="Numero de carte d'étudiant ?"><br>
+            <label for="option">Choisissez l'option que vous desirez</label>
+            <select name="Option" size="5">
+                <option value="J2ee">J2ee</option>
+                <option value="Android">Android</option>
+                <option value="Net">.Net</option>
+                <option value="Html5">Html 5</option>
+                <option value="Flex">Flex</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Valider"><input type="reset" value="réinitialiser">
+    </form>
+</body>
+</html>
