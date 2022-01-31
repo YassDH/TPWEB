@@ -102,6 +102,7 @@ body{
 .footer-txt{
     text-align: center;
     font-size: 12px;
+    font-weight: bold;
 }
 .footer{
     background-image: url(./img/foot_bg.png);
