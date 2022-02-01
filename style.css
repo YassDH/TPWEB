@@ -23,7 +23,6 @@ body{
 }
 .content .top{
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     width: 500px;
 }
